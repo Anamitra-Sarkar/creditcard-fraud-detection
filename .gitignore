@@ -1,0 +1,25 @@
+# Python & Environment
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.DS_Store
+
+# Large Models (Hosted on Hugging Face)
+*.pt
+*.pth
+*.bin
+
+# Scalers (Ignore generic joblibs, but FORCE track the production scaler)
+*.joblib
+!quantile_scaler.joblib
+!backend/quantile_scaler.joblib
+
+# Frontend / Node
+node_modules/
+dist/
+coverage/

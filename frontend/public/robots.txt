@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+
+# This is an internal risk engine, keep bots out.
