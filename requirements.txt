@@ -1,0 +1,9 @@
+fastapi==0.109.0
+uvicorn==0.27.0
+torch>=2.0.0
+numpy
+pandas
+scikit-learn
+joblib
+pydantic>=2.0.0
+huggingface_hub>=0.20.0
